@@ -69,7 +69,17 @@
 </div>
 </div>
 
-
-
+<!-- Kategori Produk -->
+<div class="col-md-4 col-sm-6 col-xs-6">           
+<div class="panel panel-back noti-box">
+<span class="icon-box bg-color-red set-icon">
+    <i class="fa fa-book"></i>
+</span>
+<div class="text-box" >
+    <p class="main-text"><?php echo count($produk) ?></p>
+    <p class="text-muted"><a href="<?php echo base_url('admin/produk') ?>">Produk</a></p>
+</div>
+</div>
+</div>
 
 </div>
